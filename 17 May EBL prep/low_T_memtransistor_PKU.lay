@@ -1,0 +1,19 @@
+[VARIABLES]
+AlignMarks.PointsU=256
+AlignMarks.PointsV=256
+AlignScans.ScanPoints=4000
+AlignScans.AvgPoints=100
+AlignScans.Options=stay
+
+[PREFERENCES]
+LayerOrder=0
+
+[LAYER]
+;<LayerNo>=<Name>,<Border>,<Fill>,<Pattern>,<Order>,<Usable>,<Active>,<Thickness>,<Connections>
+0=Sample,12,1,0,1,1,1,1000,
+1=Electrode,39,1,0,0,1,1,1000,
+2=EBL2,53,2,0,3,1,1,1000,
+3=EBL3,33,12,0,4,1,1,1000,
+4=EBL4,3,12,0,5,1,1,1000,
+61=Automatic marks,2,2,0,2,1,1,1000,
+63=Manual marks,4,4,0,63,1,1,1000,
